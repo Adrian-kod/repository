@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wextra -g3 -gdwarf-4 CMakeFiles/Program.dir/src/main.cpp.o -o Program  ../kolej/libkolej.a /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.83.0 

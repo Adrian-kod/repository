@@ -1,0 +1,140 @@
+[
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/Client.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Client.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Client.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/Client.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/ClientManager.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ClientManager.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ClientManager.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/ClientManager.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/DiscountRate.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/DiscountRate.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/DiscountRate.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/DiscountRate.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/ClientRepository.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ClientRepository.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ClientRepository.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/ClientRepository.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/ElderlyDiscount.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ElderlyDiscount.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/ElderlyDiscount.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/ElderlyDiscount.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/NormalDiscount.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/NormalDiscount.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/NormalDiscount.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/NormalDiscount.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/Route.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Route.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Route.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/Route.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/Schedule.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Schedule.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Schedule.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/Schedule.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/WorkerDiscount.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/WorkerDiscount.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/WorkerDiscount.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/WorkerDiscount.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/Train.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Train.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/Train.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/Train.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/PassengerTrain.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/PassengerTrain.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/PassengerTrain.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/PassengerTrain.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/GoodsTrain.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/GoodsTrain.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/GoodsTrain.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/GoodsTrain.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/LargeGoodsTrain.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/LargeGoodsTrain.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/LargeGoodsTrain.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/LargeGoodsTrain.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++  -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/kolej.dir/src/LuxuryGoodsTrain.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/LuxuryGoodsTrain.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/LuxuryGoodsTrain.cpp",
+  "output": "kolej/CMakeFiles/kolej.dir/src/LuxuryGoodsTrain.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/ClientTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/ClientTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/RouteTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/RouteTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/ScheduleTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/ScheduleTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/TrainTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/TrainTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/TicketTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TicketTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TicketTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/TicketTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/test/TicketSystemTest.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TicketSystemTest.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TicketSystemTest.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/test/TicketSystemTest.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/src/StudentDiscount.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/StudentDiscount.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/StudentDiscount.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/src/StudentDiscount.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Tests.dir/src/DiscountRate.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/DiscountRate.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/src/DiscountRate.cpp",
+  "output": "kolej/CMakeFiles/Tests.dir/src/DiscountRate.cpp.o"
+},
+{
+  "directory": "/mnt/c/POBI/MKAC_PN_1215_06/project/build/program",
+  "command": "/usr/bin/g++ -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -I/mnt/c/POBI/MKAC_PN_1215_06/project/program/../../include -I/mnt/c/POBI/MKAC_PN_1215_06/project/program/../src/include -I/mnt/c/POBI/MKAC_PN_1215_06/project/program/src -I/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/include -Wall -Wextra -g3 -gdwarf-4 -std=gnu++17 -o CMakeFiles/Program.dir/src/main.cpp.o -c /mnt/c/POBI/MKAC_PN_1215_06/project/program/src/main.cpp",
+  "file": "/mnt/c/POBI/MKAC_PN_1215_06/project/program/src/main.cpp",
+  "output": "program/CMakeFiles/Program.dir/src/main.cpp.o"
+}
+]

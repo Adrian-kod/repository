@@ -1,0 +1,185 @@
+Start testing: Jun 16 09:03 CEST
+----------------------------------------------------------
+1/1 Testing: TestKolei
+1/1 Test: TestKolei
+Command: "/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/Tests" "--report_level=detailed" "--log_level=all" "--color_output=yes" "--show_progress=true"
+Directory: /mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej
+"TestKolei" start time: Jun 16 09:03 CEST
+Output:
+----------------------------------------------------------
+Running 19 test cases...
+[1;35;49m
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[0;39;49m[1;34;49mEntering test module "ClientTests"
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(147): Entering test suite "RouteTests"
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(154): Entering test case "RouteSetDurationTest"
+[0;39;49m[1;35;49m**[0;39;49m[1;36;49mTest case RouteTests/RouteSetDurationTest did not check any assertions[0;39;49m
+[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(154): Leaving test case "RouteSetDurationTest"; testing time: 380us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(48): Entering test case "RouteConstructorAndGettersTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(51): [1;32;49minfo: check route.getFirstStation() == "Warszawa" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(52): [1;32;49minfo: check route.getLastStation() == "Krakow" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(53): [1;32;49minfo: difference{} between route.getDuration(){2.5} and 2.5{2.5} doesn't exceed 0.001%[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(54): [1;32;49minfo: check route.getNumberOfStations() == "5" has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(48): Leaving test case "RouteConstructorAndGettersTest"; testing time: 415us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(63): Entering test case "RouteEmptyStationsTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(64): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(69): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m**[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(63): Leaving test case "RouteEmptyStationsTest"; testing time: 1985us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(81): Entering test case "RouteInvalidDurationTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(82): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(87): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(81): Leaving test case "RouteInvalidDurationTest"; testing time: 362us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(99): Entering test case "RouteInvalidStationsNumberTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(100): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(105): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(99): Leaving test case "RouteInvalidStationsNumberTest"; testing time: 369us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(117): Entering test case "RouteSettersTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(121): [1;32;49minfo: difference{} between route.getDuration(){3} and 3.0{3} doesn't exceed 0.001%[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(124): [1;32;49minfo: check route.getNumberOfStations() == "6" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(126): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(127): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m**[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(117): Leaving test case "RouteSettersTest"; testing time: 436us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(136): Entering test case "RouteSameStationsTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(137): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/RouteTest.cpp(136): Leaving test case "RouteSameStationsTest"; testing time: 660us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(49): Entering test case "RouteConstructorTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(52): [1;32;49minfo: check route.getFirstStation() == "Warszawa" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(53): [1;32;49minfo: check route.getLastStation() == "Krakow" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(54): [1;32;49minfo: check route.getDuration() == 2.5 has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(55): [1;32;49minfo: check route.getNumberOfStations() == "5" has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(49): Leaving test case "RouteConstructorTest"; testing time: 579us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(65): Entering test case "RouteEmptyStationNamesTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(66): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(67): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m**[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/TrainTest.cpp(65): Leaving test case "RouteEmptyStationNamesTest"; testing time: 348us
+[0;39;49m[1;35;49m[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(147): Leaving test suite "RouteTests"; testing time: 5767us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(165): Entering test suite "TrainTests"
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(172): Entering test case "TrainAssignSeatsTest"
+[0;39;49m[1;35;49m***[0;39;49m[1;36;49mTest case TrainTests/TrainAssignSeatsTest did not check any assertions[0;39;49m
+[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(172): Leaving test case "TrainAssignSeatsTest"; testing time: 328us
+[0;39;49m[1;35;49m[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(165): Leaving test suite "TrainTests"; testing time: 393us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(183): Entering test suite "DiscountTests"
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(190): Entering test case "StudentDiscountTest"
+[0;39;49m[1;35;49m**[0;39;49m[1;36;49mTest case DiscountTests/StudentDiscountTest did not check any assertions[0;39;49m
+[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(190): Leaving test case "StudentDiscountTest"; testing time: 290us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(199): Entering test case "WorkerDiscountTest"
+[0;39;49m[1;35;49m***[0;39;49m[1;36;49mTest case DiscountTests/WorkerDiscountTest did not check any assertions[0;39;49m
+[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(199): Leaving test case "WorkerDiscountTest"; testing time: 330us
+[0;39;49m[1;35;49m[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(183): Leaving test suite "DiscountTests"; testing time: 745us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(210): Entering test suite "ScheduleTests"
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(218): Entering test case "ScheduleConstructorAndGettersTest"
+[0;39;49m[1;35;49m***[0;39;49m[1;36;49mTest case ScheduleTests/ScheduleConstructorAndGettersTest did not check any assertions[0;39;49m
+[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(218): Leaving test case "ScheduleConstructorAndGettersTest"; testing time: 286us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(107): Entering test case "ScheduleConstructorTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(113): [1;32;49minfo: check schedule.getDay() == "Poniedzialek" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(114): [1;32;49minfo: check schedule.getFirstStation() == "Warszawa" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(115): [1;32;49minfo: check schedule.getLastStation() == "Krakow" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(116): [1;32;49minfo: check schedule.getFirstHour() == "06:00" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(117): [1;32;49minfo: check schedule.getLastHour() == "22:00" has passed[0;39;49m
+[1;35;49m**[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(107): Leaving test case "ScheduleConstructorTest"; testing time: 400us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(126): Entering test case "ScheduleSettersTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(137): [1;32;49minfo: check schedule.getFirstHour() == "07:00" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(140): [1;32;49minfo: check schedule.getLastHour() == "21:00" has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(143): [1;32;49minfo: check schedule.getDay() == "Wtorek" has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(126): Leaving test case "ScheduleSettersTest"; testing time: 490us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(152): Entering test case "ScheduleTrainsAndRoutesTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(164): [1;32;49minfo: check schedule.getTrains().size() == 2 has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(165): [1;32;49minfo: check schedule.getRoutes().size() == 2 has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(152): Leaving test case "ScheduleTrainsAndRoutesTest"; testing time: 366us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(174): Entering test case "ScheduleInvalidTimeFormatTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(178): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(183): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m**[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(174): Leaving test case "ScheduleInvalidTimeFormatTest"; testing time: 391us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(195): Entering test case "ScheduleEmptyValuesTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(199): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(204): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(209): [1;32;49minfo: check 'exception "std::invalid_argument" raised as expected' has passed[0;39;49m
+[1;35;49m***[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(195): Leaving test case "ScheduleEmptyValuesTest"; testing time: 386us
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(221): Entering test case "ScheduleModifyTrainsAndRoutesTest"
+[0;39;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(242): [1;32;49minfo: check schedule.getRoutes().size() == 2 has passed[0;39;49m
+/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(245): [1;32;49minfo: check !schedule.getTrains().empty() has passed[0;39;49m
+[1;35;49m****
+[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ScheduleTest.cpp(221): Leaving test case "ScheduleModifyTrainsAndRoutesTest"; testing time: 417us
+[0;39;49m[1;35;49m[0;39;49m[1;34;49m/mnt/c/POBI/MKAC_PN_1215_06/project/kolej/test/ClientTest.cpp(210): Leaving test suite "ScheduleTests"; testing time: 2916us
+[0;39;49m[1;35;49m[0;39;49m[1;34;49mLeaving test module "ClientTests"; testing time: 9882us
+[0;39;49m
+Test module "ClientTests" has passed with:
+  19 test cases out of 19 passed
+  38 assertions out of 38 passed
+
+  Test suite "RouteTests" has passed with:
+    9 test cases out of 9 passed
+    21 assertions out of 21 passed
+
+    Test case "RouteTests/RouteSetDurationTest" has passed
+
+    Test case "RouteTests/RouteConstructorAndGettersTest" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "RouteTests/RouteEmptyStationsTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "RouteTests/RouteInvalidDurationTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "RouteTests/RouteInvalidStationsNumberTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "RouteTests/RouteSettersTest" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "RouteTests/RouteSameStationsTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "RouteTests/RouteConstructorTest" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "RouteTests/RouteEmptyStationNamesTest" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "TrainTests" has passed with:
+    1 test case out of 1 passed
+
+    Test case "TrainTests/TrainAssignSeatsTest" has passed
+
+  Test suite "DiscountTests" has passed with:
+    2 test cases out of 2 passed
+
+    Test case "DiscountTests/StudentDiscountTest" has passed
+
+    Test case "DiscountTests/WorkerDiscountTest" has passed
+
+  Test suite "ScheduleTests" has passed with:
+    7 test cases out of 7 passed
+    17 assertions out of 17 passed
+
+    Test case "ScheduleTests/ScheduleConstructorAndGettersTest" has passed
+
+    Test case "ScheduleTests/ScheduleConstructorTest" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "ScheduleTests/ScheduleSettersTest" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "ScheduleTests/ScheduleTrainsAndRoutesTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "ScheduleTests/ScheduleInvalidTimeFormatTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "ScheduleTests/ScheduleEmptyValuesTest" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "ScheduleTests/ScheduleModifyTrainsAndRoutesTest" has passed with:
+      2 assertions out of 2 passed
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TestKolei" end time: Jun 16 09:03 CEST
+"TestKolei" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 09:03 CEST

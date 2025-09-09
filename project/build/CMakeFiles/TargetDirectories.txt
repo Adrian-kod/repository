@@ -1,0 +1,13 @@
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/CMakeFiles/test.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/CMakeFiles/edit_cache.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/kolej.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/Tests.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/check.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/test.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/edit_cache.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/kolej/CMakeFiles/rebuild_cache.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/program/CMakeFiles/Program.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/program/CMakeFiles/test.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/program/CMakeFiles/edit_cache.dir
+/mnt/c/POBI/MKAC_PN_1215_06/project/build/program/CMakeFiles/rebuild_cache.dir
